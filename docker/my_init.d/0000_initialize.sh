@@ -21,4 +21,3 @@ echo "Home: $HOME"
 
 # Starting Server
 echo "Starting Server......"
-bundle exec puma
