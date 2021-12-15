@@ -9,7 +9,6 @@ ENV APP_HOME $APP_DIR
 CMD ["/sbin/my_init"]
 
 RUN apt-get update && apt-get install -y postgresql-client
-# RUN apt-get update && apt-get install -y nodejs npm
 
 WORKDIR $APP_HOME
 
